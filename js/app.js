@@ -8,7 +8,7 @@
   // The signed-in user info.
   var user = result.user;
   console.log(user.displayName);
-  $("p").html(user.displayName);
+  $("p").text(user.displayName);
   // ...
 }).catch(function(error) {
   // Handle Errors here.
