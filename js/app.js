@@ -8,6 +8,7 @@
   // The signed-in user info.
   var user = result.user;
   console.log(user.displayName);
+  $("p").html(displayName);
   // ...
 }).catch(function(error) {
   // Handle Errors here.
@@ -21,4 +22,3 @@
 });
 }
 
-$("p").html(displayName);
